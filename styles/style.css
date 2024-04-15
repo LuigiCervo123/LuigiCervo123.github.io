@@ -14,7 +14,7 @@ body {
 
 .wrapper {
     width: 320px;
-    height: 540px;
+    height: 100%;
     background: #FDFEFF;
     transition: background .6s ease;
     border-radius: 10px;
@@ -137,4 +137,29 @@ body {
             font-size: 12px;		
         }
     }
+}
+.table{
+    border: 1px solid rgb(180, 179, 179);
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5%;
+    font-size: 15.4px;
+    color: #595a5e;
+}
+
+.table td{
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-right: 20px;
+    border: 1px solid rgb(173, 171, 171);
+
+}
+.map{
+    margin-top: 20px;
+    align-items: center;;
+    margin-left: 8px;
+}
+.divmap{
+    align-items: center;
+    justify-content: center;
 }
